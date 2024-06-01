@@ -1,43 +1,34 @@
-/* ⚙️ Credits to:
-* AzamiJs
-* Elrebelde21
-* GataNina-Li */
-
 import { watchFile, unwatchFile } from 'fs'
 import chalk from 'chalk'
 import { fileURLToPath, pathToFileURL } from 'url'
 
-global.owner = [['524531287294', 'CuriosityBot-MD 🍧', true], ['447700168473', '👑 𝐎𝐰𝐧𝐞𝐫 👑', true], ['5217294888993'], ['5214531287294'], ['5492266466080'], ['5492266613038'], ['573012482597'], ['5215610314499'], ['51935531943'], ['33760536110'], ['59162714296'], ['5492964650915'], ['50558124470'], ['5214434703586'], ['18293132203'], ['573003025991']]
+global.owner = [['201024480189', '🌩️ ẉa.me//𝐵𝛩𝑺𝑺‖.peị!‽ 👑', true], ['201024480189'], ['201024480189'], ['201024480189'], ['201024480189'], ['201024480189'], ['201024480189'], ['201024480189'], ['201024480189'], ['201024480189'], ['201024480189']]
 
 //BETA: Si quiere evitar escribir el número que será bot en la consola, agregué desde aquí entonces:
 //Sólo aplica para opción 2 (ser bot con código de texto de 8 digitos)
-global.botNumberCode = '' //Ejemplo: +59309090909
+global.botNumberCode = '' //Ejemplo: +201024480189
 global.confirmCode = ''
 
-global.suittag = ['5214531287294']
+global.animxscans = ['201024480189']
+global.suittag = ['201024480189']
 global.mods = []
 global.prems = []
 
-//Solo desarrolladores aprobados
-global.isdev = [ /* ['5217294888993'], */ ['5214434703586'], ['5492266466080'], ['5492266613038'], ['573012482597'], ['5215610314499'], ['51935531943'], ['33760536110'], ['5492964650915'], ['50558124470']]
+global.packname = '『 +201024480189 』'
+global.author = '『 تــــربـــــــو بــ☠️ـوت 』'
+global.wm = '『تــــربـــــــؤؤ بــ🐍ـؤؤت 』'
+global.wm2 = '『 تــــربـــــــو بــ💎ـوت 』'
+global.azami = '『تــــربـــــــؤؤ بــ💀ـؤؤ 』'
+global.cb = '『 تــــربـــــــو بــ👾ـوت 』'
 
-//Aqui encuentras los nombres del bot 
-global.packname = '𝙔𝙖𝙧𝙩𝙚𝙭𝘽𝙤𝙩-𝙈𝘿 🍓'
-global.author = '𝗬𝗮𝗿𝘁𝗲𝘅𝗕𝗼𝘁-𝗠𝗗'
-global.wm = '𝖸𝖺𝗋𝗍𝖾𝗑 𝖡𝗈𝗍 - 𝖬𝖣'
-global.wm2 = '𝗬𝖺𝗋𝗍𝖾𝗑 : 𝗕𝗈𝗍'
-global.gatanina = '𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 🐈'
-global.cb = '𝘠𝘢𝘳𝘵𝘦𝘹𝘉𝘰𝘵'
-
-
-//Las Versiones Y Entre Otros
-global.vs = 'V2'
+global.vs = 'V2 • 1.0.5'
 global.library = 'Baileys'
 global.baileys = '@whiskeysockets/baileys'
 global.lenguaje = 'Español'
+global.KMA = '╰━━━〔 *🛡️ 1.7.9* 〕━━━━━⬣'
 global.menudi = ['⛶','❏','⫹⫺']
-global.dev = 'GataNina-Li'
-global.devnum = '+593 96 826 3524'
+global.dev = '© TURBO_BOT'
+global.devnum = '+201024480189'
 
 let file = fileURLToPath(import.meta.url)
 watchFile(file, () => { unwatchFile(file)
